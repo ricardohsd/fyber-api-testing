@@ -1,0 +1,97 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  font: .875em/1.28571 sans-serif, Arial;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+  background-color: #F8F8F8;
+}
+
+h1 {
+  background-color: #9BCBEB;
+  color: #FFF;
+  margin: 0px;
+  padding: 10px;
+}
+
+h2 {
+  color: #57555C;
+  margin-top: 0px;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+  padding: 10px;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  width: 300px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+a,
+form button {
+  background-color: #382E2C;
+  color: #FFF;
+  border: 2px solid #382E2C;
+  line-height: 2.6em;
+}
+
+form .field_with_errors {
+  color: red;
+  background-color: #fff;
+}
+
+form .field_with_errors input {
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px;
+}
+
+a:visited {
+  color: #FFF;
+}
+
+.offers {
+  padding: 10px;
+}
+
+.offers ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.offers ul li {
+  float: left;
+  width: 236px;
+  height: 142px;
+  text-align: center;
+  background-color: #fff;
+  margin: 5px 10px 5px 0px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
