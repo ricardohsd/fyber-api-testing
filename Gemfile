@@ -12,3 +12,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'rest-client'
 gem 'spring',        group: :development
+
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'webmock'
+  gem 'timecop'
+end

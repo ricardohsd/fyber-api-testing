@@ -1,0 +1,36 @@
+<div id="container">
+  <h2>Search for offers</h2>
+
+  <%= form_for @search_offer, url: search_offers_path do |f| %>
+    <% if @search_offer.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@search_offer.errors.count, "error") %> prohibited this search from being made:</h2>
+
+        <ul>
+        <% @search_offer.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :uid %>
+      <%= f.text_field :uid %>
+    </div>
+
+    <div class="field">
+      <%= f.label :pub0 %>
+      <%= f.text_field :pub0 %>
+    </div>
+
+    <div class="field">
+      <%= f.label :page %>
+      <%= f.text_field :page %>
+    </div>
+
+    <div class="actions">
+      <%= f.button %>
+    </div>
+  <% end %>
+</div>

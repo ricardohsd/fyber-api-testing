@@ -1,0 +1,23 @@
+<div class="offers">
+  <%= link_to "New search", new_offer_path %>
+
+  <% if @search_offer.offers.present? %>
+    <ul>
+      <% @search_offer.offers.each do |offer| %>
+        <li>
+          <div class="offer">
+            <div class="title"><%= offer.title %></div>
+            <div class="payout"><%= offer.payout %></div>
+            <div class="thumbnail">
+              <%= image_tag offer.thumbnail, alt: "Thumbnail image" %>
+            </div>
+          </div>
+        </li>
+      <% end %>
+    </ul>
+  <% else %>
+    <div class="no_offers">
+      No offers
+    </div>
+  <% end %>
+</div>

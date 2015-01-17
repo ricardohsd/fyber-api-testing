@@ -95,3 +95,12 @@ a:visited {
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+.no_offers {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border: 1px solid #faebcc;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}

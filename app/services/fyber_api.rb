@@ -1,0 +1,2 @@
+module FyberApi
+end
