@@ -1,2 +1,4 @@
 --color
+--format documentation
+--require turnip/rspec
 --require spec_helper

@@ -20,4 +20,6 @@ end
 group :test do
   gem 'webmock'
   gem 'timecop'
+  gem 'turnip'
+  gem 'capybara'
 end

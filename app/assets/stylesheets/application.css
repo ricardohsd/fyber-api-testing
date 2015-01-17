@@ -86,11 +86,11 @@ a:visited {
 
 .offers ul li {
   float: left;
-  width: 236px;
+  width: 210px;
   height: 142px;
   text-align: center;
   background-color: #fff;
-  margin: 5px 10px 5px 0px;
+  margin: 5px 10px 15px 0px;
   padding: 10px;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
